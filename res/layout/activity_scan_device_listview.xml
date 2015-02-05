@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/btn_beep"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="#ffe0ffff"
+        android:text="蜂鳴和打印"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_led"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="70dp"
+        android:background="#ffe0ffff"
+        android:text="led閃爍"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@id/btn_led"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ItemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="5dp"
+            android:textColor="#ff000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ItemText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:textColor="#ff000000"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

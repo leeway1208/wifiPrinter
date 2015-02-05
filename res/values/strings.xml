@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eyebb Printer</string>
+    <string name="str_checkdevice">check equipment </string>
+    <string name="str_open">turn on Bluetooth</string>
+    <string name="str_close">turn off Bluetooth</string>
+    <string name="str_matched">View paired devices</string>
+    <string name="str_openimg">open picture </string>
+    <string name="str_create2d">qrcode</string>
+    <string name="str_createbar">barcode</string>
+    <string name="str_order">FontSize</string>
+    <string name="str_scan">scanning equipment</string>
+    <string name="str_printword">Print </string>
+    <string name="str_printword_desc">Print GBK, Unicode text encoding</string>
+    <string name="str_printimg">print pictures</string>
+    <string name="str_printimg_desc">Select the picture to print</string>
+    <string name="str_printbarcode">one-dimensional code printing </string>
+    <string name="str_printbarcode_desc">dynamically create a dimensional code printing </string>
+    <string name="str_printqrcode">two-dimensional code printing </string>
+    <string name="str_printqrcode_desc">dynamically create 2D code printing </string>
+    <string name="str_printcmd">send printer instructions </string>
+    <string name="str_printcmd_desc">send a print instruction set other instructions </string>
+        <string name="str_cmd_scan_device">scan device</string>
+    <string name="str_cmd_scan_device_desc">for printer</string>
+    <string name="str_disconnect">disconnect</string>
+    <string name="str_device">device</string>
+    <string name="str_scaning">scanning</string>
+    <string name="str_unconnected">not connected!</string>
+    <string name="str_succonnect">connected successfully!</string>
+    <string name="str_faileconnect">connection failed!</string>
+    <string name="str_lose">connection lost!</string>
+    <string name="str_cannotcreate2d">create 2D failed!</string>
+    <string name="str_cannotcreatebar">failed to create a one-dimensional code </string>
+    <string name="str_devecehasblue">Bluetooth equipment! </string>
+    <string name="str_nomatched">no matching equipment!</string>
+    <string name="str_connected">connected </string>
+    <string name="str_disconnected">not connected to </string>
+    <string name="str_connecting">connecting to </string>
+    <string name="str_hasnodevice">no Bluetooth devices! </string>
+    <string name="str_scanover">scanning is finished!</string>
+    <string name="chose">select</string>
+    <string name="mode_bt">BT Printer</string>
+    <string name="mode_wifi">Wifi Printer</string>
+    <string name="str_printunicode">Print Unicode</string>
+    <string name="str_exit">Sure exit and close the equipment?</string>
+    <string name="str_autotime">Interval(ms):</string>
+    <string name="str_autoprint">Auto Print</string>
+        <string name="str_not_support_ble">Phone do not support ble</string>
+        <string name="str_scan_ble_device">Start scan device</string>
+</resources>
